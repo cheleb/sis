@@ -109,6 +109,8 @@ Provides the interfaces and base classes to be implemented by various storage fo
         <configuration>
           <instructions>
             <Bundle-SymbolicName>org.apache.sis.storage</Bundle-SymbolicName>
+            <Import-Package>javax.xml.bind;version=2.2.1, *</Import-Package>
+            <Export-Package>org.apache.sis.*, org.apache.sis.internal.simple</Export-Package>
           </instructions>
         </configuration>
       </plugin>

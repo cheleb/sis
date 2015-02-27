@@ -155,6 +155,7 @@ Miscellaneous utilities.
           <instructions>
             <Bundle-SymbolicName>org.apache.sis.utility</Bundle-SymbolicName>
             <Bundle-Activator>org.apache.sis.internal.system.OSGiActivator</Bundle-Activator>
+            <Export-Package>org.apache.sis.*,org.apache.sis.internal.jaxb.*, org.apache.sis.internal.converter,org.apache.sis.internal.metadata,org.apache.sis.internal.system</Export-Package>
           </instructions>
         </configuration>
       </plugin>

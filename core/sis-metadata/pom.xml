@@ -116,6 +116,7 @@ Implementations of metadata derived from ISO 19115. This module provides both an
         <configuration>
           <instructions>
             <Bundle-SymbolicName>org.apache.sis.metadata</Bundle-SymbolicName>
+            <Export-Package>org.apache.sis.metadata.*, org.apache.sis.internal.jaxb.*, org.apache.sis.io.wkt.*</Export-Package>
           </instructions>
         </configuration>
       </plugin>
